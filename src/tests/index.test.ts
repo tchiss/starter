@@ -3,6 +3,7 @@ import App from '../app';
 import IndexRoute from '../routes/index.route';
 
 afterAll(async () => {
+  // @ts-ignore
   await new Promise(resolve => setTimeout(() => resolve(), 500));
 });
 

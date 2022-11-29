@@ -4,6 +4,7 @@ import App from '../app';
 import UsersRoute from '../routes/users.route';
 
 afterAll(async () => {
+  // @ts-ignore
   await new Promise(resolve => setTimeout(() => resolve(), 500));
 });
 

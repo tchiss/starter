@@ -9,6 +9,7 @@ import { TokenData } from '../interfaces/auth.interface';
 import AuthService from '../services/auth.service';
 
 afterAll(async () => {
+  // @ts-ignore
   await new Promise(resolve => setTimeout(() => resolve(), 500));
 });
 
